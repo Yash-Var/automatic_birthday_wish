@@ -30,14 +30,14 @@ console.log(day,month);
          secure: false,
          auth: {
            user: "yash.2125cs1155@kiet.edu",
-           pass: "algwvnhnhhnadaui",
+           pass: "sppsnxpzkmzgaetq",
          },
        });
         await config.sendMail({
          form: "test@gmail.com",
          to: products[0].mail,
          subject: "test",
-         text: "super happy",
+         text: "super happy yash",
          // html:"<h1>This is html Demo</h1>",
        });
      };
