@@ -37,7 +37,7 @@ console.log(day,month);
          form: "test@gmail.com",
          to: products[0].mail,
          subject: "test",
-         text: `Happy birthday ${proucts[0].name}`,
+         text: `Happy birthday ${products[0].name}`,
          // html:"<h1>This is html Demo</h1>",
        });
      };
